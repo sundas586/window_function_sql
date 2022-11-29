@@ -24,3 +24,12 @@ asigns unique value to each record in a table
 
 but there is no proper order between the groups, as you see the empolyee with earlier id are put after employee with later id : 118, 116, 106, 104
 - Now suppose we want to the the names of 2 senior most employees from each dpt, hence for that the id of all should have been arranged in asending order.
+
+![1](https://user-images.githubusercontent.com/33677647/204672102-b59ad4a7-c605-46cd-acfb-7af0913182ad.JPG)
+
+now data is sorted by employee id for each dpt.
+
+- now to fetch only 2 senior most employye from each dpt :
+
+
+
