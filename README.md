@@ -40,6 +40,13 @@ here x is an alias.
 ![11](https://user-images.githubusercontent.com/33677647/204677727-1ef3e60f-d3f5-478b-9759-6196dbbd7ed9.JPG)
 ![12](https://user-images.githubusercontent.com/33677647/204677733-cd6c10b3-ecbe-421f-97b8-891f4d0615c3.JPG)
 
+## RANK() VS DENSE_RANK()
+
+rank() will skip a rank value for duplicated values, whereas dense_rank() will not skip a rank value after duplicated rows.
+
+![1](https://user-images.githubusercontent.com/33677647/204682206-557123f7-24cd-4239-b528-29d4d16f99fb.JPG)
+
+here in rank() window the duplicated rows as they had same salary, both are given rank 2 but after that in next row rank() skips 3 and directly gives 4, but this is not tha case with dense rank.
 
 
 
