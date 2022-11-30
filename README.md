@@ -51,5 +51,14 @@ rank() will skip a rank value for duplicated values, whereas dense_rank() will n
 
 here in rank() window the duplicated rows as they had same salary, both are given rank 2 but after that in next row rank() skips 3 and directly gives 4, but this is not tha case with dense rank.
 
+## LEAD() vs LAG()
+
+![1](https://user-images.githubusercontent.com/33677647/204777145-1c8aad75-ac0b-434c-bbaa-f1b4193a3ce4.JPG)
+![2](https://user-images.githubusercontent.com/33677647/204777160-8ba5f6fe-1120-4e21-a28f-3c0c3c2ec9ac.JPG)
+![3](https://user-images.githubusercontent.com/33677647/204777172-2090d87d-1ac8-45ab-8ba1-91ce6c02ae0e.JPG)
+![4](https://user-images.githubusercontent.com/33677647/204777194-60789c45-e67b-4885-bda1-f3747ebabe90.JPG)
+
+**LAG(any_columnName , 2, 0)** --> here 2 tell to return the value from previous of previous row, and 0 tell that when ever the return value is 'null' replace null with zero.
+
 
 
