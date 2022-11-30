@@ -60,5 +60,7 @@ here in rank() window the duplicated rows as they had same salary, both are give
 
 **LAG(any_columnName , 2, 0)** --> here 2 tell to return the value from previous of previous row, and 0 tell that when ever the return value is 'null' replace null with zero.
 
+## first_value()
 
+The FIRST_VALUE() is a window function that returns the first value in an ordered set of values.
 
