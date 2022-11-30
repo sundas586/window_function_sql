@@ -31,5 +31,15 @@ now data is sorted by employee id for each dpt.
 
 - now to fetch only 2 senior most employye from each dpt :
 
+![1](https://user-images.githubusercontent.com/33677647/204675609-369b3add-99d7-421b-9c3f-5a5d48d89704.JPG)
+
+here x is an alias.
+
+## RANK()
+
+![11](https://user-images.githubusercontent.com/33677647/204677727-1ef3e60f-d3f5-478b-9759-6196dbbd7ed9.JPG)
+![12](https://user-images.githubusercontent.com/33677647/204677733-cd6c10b3-ecbe-421f-97b8-891f4d0615c3.JPG)
+
+
 
 
