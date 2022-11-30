@@ -1,5 +1,8 @@
 # window_function_sql
 
+What are window functions used for?<br/>
+What are Window Functions? Window functions enable users to perform calculations against partitions (i.e. subgroups or sections) of a result set, typically a table or the results from another query.
+
 ![1](https://user-images.githubusercontent.com/33677647/204666035-adbfeb09-d328-4867-b921-b4be1dbacd69.JPG)
 ![2](https://user-images.githubusercontent.com/33677647/204666044-d6a835ce-a21d-422b-acc0-8e77fdd51542.JPG)
 ![3](https://user-images.githubusercontent.com/33677647/204666063-62806e54-2614-4645-baa2-fd3bf623baec.JPG)
