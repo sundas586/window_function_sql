@@ -93,6 +93,19 @@ the **Frame clause** is mentiones inside OVER() clause at the end, i.e after gro
 ![6](https://user-images.githubusercontent.com/33677647/204928748-8e63d916-2c9e-4e71-9a54-81488b88193d.JPG)
 ![7](https://user-images.githubusercontent.com/33677647/204928763-342b815a-b704-4c39-abac-16905c1f2198.jpeg)
 
+So,
+- At first in each partitioned window, the Unbounded preceding and current row, both are on first row, so there is only 1 row (considers that there is only one row) at first in each partition, which is also last row because only one row.
+- Then at 2nd time, unbounded-preceding stays at first row and current-row moves to next row, so there will be two rows now in each partition and the row at which current-row has moved is now last row.
+- now in each window, current row moves to third row and unbounded-precedings remains at first row, so in each window, there are 3 rows now, and this new add row is now last row.
+- goes on...
+
+
+**BUT!!!!!**
+
+this issue can be solved just by changing the "current row" to **unbounded following** 
+
+![99](https://user-images.githubusercontent.com/33677647/204930722-ff97b479-1e25-47f3-9102-0745d280af1c.JPG)
+
 
 
 
