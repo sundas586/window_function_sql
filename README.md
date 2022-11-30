@@ -85,8 +85,13 @@ the **Frame clause** is mentiones inside OVER() clause at the end, i.e after gro
 - UNBOUNDED PRECEDING : The bound is the first partition row.
 - UNBOUNDED FOLLOWING : The bound is the last partition row. 
 
-
-
+![1](https://user-images.githubusercontent.com/33677647/204928871-098b1d5a-7a4c-464c-97c8-4b726df0aca8.jpeg)
+![2](https://user-images.githubusercontent.com/33677647/204928656-302e13a9-5579-4eb0-9854-bf9ae77afff2.jpeg)
+![3](https://user-images.githubusercontent.com/33677647/204928672-88931a0e-9671-4eb7-bdb9-d266492c487f.jpeg)
+![4](https://user-images.githubusercontent.com/33677647/204928683-90942087-106e-42a5-a002-d99c91e7b2ea.jpeg)
+![5](https://user-images.githubusercontent.com/33677647/204928714-b7e92edc-eea0-4895-bd9c-733cdfa29975.JPG)
+![6](https://user-images.githubusercontent.com/33677647/204928748-8e63d916-2c9e-4e71-9a54-81488b88193d.JPG)
+![7](https://user-images.githubusercontent.com/33677647/204928763-342b815a-b704-4c39-abac-16905c1f2198.jpeg)
 
 
 
