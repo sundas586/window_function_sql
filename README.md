@@ -64,3 +64,32 @@ here in rank() window the duplicated rows as they had same salary, both are give
 
 The FIRST_VALUE() is a window function that returns the first value in an ordered set of values.
 
+![1](https://user-images.githubusercontent.com/33677647/204864019-0520b02f-e24e-4d22-9b32-33e23a58fb4e.JPG)
+
+## last_view()
+
+![2](https://user-images.githubusercontent.com/33677647/204864121-572cd1ef-892f-48c1-a7f9-d2004c413933.JPG)
+
+as we see that the last values are not fetched correctly
+
+- sql is not fetching last_row() properly due to by-default **Frame clause** used by sql.
+
+![1](https://user-images.githubusercontent.com/33677647/204865468-c269b215-215d-4889-ab63-2c9c71d994f9.JPG)
+
+the **Frame clause** is mentiones inside OVER() clause at the end, i.e after group by clause = over(partition by A order by B FrameClauseHere)
+- ByDefault Frame clause : "range between unbounded preceding and current row"
+![4](https://user-images.githubusercontent.com/33677647/204866950-6a5aa763-2f00-4c34-858b-363a9d9ecbcd.JPG)
+- as the above frame clause is by default, so it is not necessary for us to mention it.
+
+- UNBOUNDED PRECEDING indicates that the window starts at the first row of the partition;
+- UNBOUNDED PRECEDING : The bound is the first partition row.
+- UNBOUNDED FOLLOWING : The bound is the last partition row. 
+
+
+
+
+
+
+
+
+
