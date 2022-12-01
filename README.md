@@ -135,6 +135,30 @@ we did not use partition here because we need only phone catagory.
 
 ![aa](https://user-images.githubusercontent.com/33677647/204943456-32a6666b-7321-4179-9ca8-eecdff9c91cb.JPG)
 
+## cume_dist()
+
+MySQL CUME_DIST() function to calculate cumulative distribution value.
+
+![99](https://user-images.githubusercontent.com/33677647/205147402-72030745-1753-455d-bde7-91265ff8c81f.JPG)
+
+- The value of cume_dist() is always between 0 to 1.<br/>
+- In dataset we give each row a row_nuber and then the cume_dist() value of each row will be like<br/>
+- cume_dist value for 1st row = 1/ tota_number_of rows<br/>
+- cume_dist value for 2nd row = 2/ tota_number_of rows<br/>
+- cume_dist value for 3rd row = 3/ tota_number_of rows<br/>
+.<br/>
+.<br/>
+.<br/>
+- cume_dist value for nth row = n/ tota_number_of rows<br/>
+
+```diff
+- Alert!!!
+- if two neighbouring rows (suppose 7th and 8t row ) contains same data with in them, then both rows will have the cume_dist() value :
+- cume_dist value for both 7th & 8th rows = 8 / tota_number_of rows
+```
+
+```diff
+Now suppose I have a products company, I want to find that which 
 
 
 
