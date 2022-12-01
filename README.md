@@ -140,6 +140,9 @@ we did not use partition here because we need only phone catagory.
 ## cume_dist()
 
 MySQL CUME_DIST() function to calculate cumulative distribution value.
+Means it give each row a percentage-wise rank.
+![aaa](https://user-images.githubusercontent.com/33677647/205168798-b42d5aff-0ef5-46d9-b9e0-bb95a0522ac9.JPG)
+
 
 ![99](https://user-images.githubusercontent.com/33677647/205147402-72030745-1753-455d-bde7-91265ff8c81f.JPG)
 
