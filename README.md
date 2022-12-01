@@ -117,7 +117,11 @@ as most of the time the query inside over() is same, so intead of repeating that
 returns the nth row we ask for, here in this example, we put 2, because we want second most expensive product.
 
 ![2](https://user-images.githubusercontent.com/33677647/204935823-0cbcc6cc-850b-4426-9dc9-5baf028b6236.JPG)
-
+![2](https://user-images.githubusercontent.com/33677647/204935957-d1c34f29-d755-4181-9522-bcd336feaac5.JPG)
+ 
+```diff
+- When ever we use last_value() or nth_value, we must specify the Frame clause in order to properly fetch the data
+``` 
 
 
 
