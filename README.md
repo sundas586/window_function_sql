@@ -1,5 +1,7 @@
 # window_function_sql
 
+![b](https://user-images.githubusercontent.com/33677647/205153034-0a1a2be7-8065-46a7-a88b-4f268f530c93.jpg)
+
 What are window functions used for?<br/>
 What are Window Functions? Window functions enable users to perform calculations against partitions (i.e. subgroups or sections) of a result set, typically a table or the results from another query.
 
@@ -157,8 +159,30 @@ MySQL CUME_DIST() function to calculate cumulative distribution value.
 - cume_dist value for both 7th & 8th rows = 8 / tota_number_of rows
 ```
 
+![aa](https://user-images.githubusercontent.com/33677647/205152945-b1def205-cde1-4dbc-abde-6866532736f4.JPG)
+
+**Do not pass any value inside cume_dist() window function.**
+
 ```diff
-Now suppose I have a products company, I want to find that which 
++ Now suppose I have a products company, I want to find that which 20% of products are having least sales out of all products.
+```
+
+For that I arrage the all products group by price desc, so that all the products are arranged in high to low sales order.
+The we can use cume_dist() window function to fetch last 20% for row, as they all are least sale products.
+
+SELECT *, <br/>
+cume_dist() over (order by price desc) AS CumeDistValue<br/>
+FROM products<br/>
+WHERE CumeDistValue <= .2;<br/>
+
+![99](https://user-images.githubusercontent.com/33677647/205152373-ee234e76-b5be-41b0-b3ff-efa84e86e78a.JPG)
+
+
+
+
+
+
+
 
 
 
