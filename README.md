@@ -112,6 +112,11 @@ as most of the time the query inside over() is same, so intead of repeating that
 
 ![1](https://user-images.githubusercontent.com/33677647/204934454-685b9f8b-a000-4684-a464-4df4ac2c2619.JPG)
 
+## nth_value()
+
+returns the nth row we ask for, here in this example, we put 2, because we want second most expensive product.
+
+![2](https://user-images.githubusercontent.com/33677647/204935823-0cbcc6cc-850b-4426-9dc9-5baf028b6236.JPG)
 
 
 
