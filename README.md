@@ -106,6 +106,12 @@ this issue can be solved just by changing the "current row" to **unbounded follo
 
 ![99](https://user-images.githubusercontent.com/33677647/204930722-ff97b479-1e25-47f3-9102-0745d280af1c.JPG)
 
+### writing a window w function :
+
+as most of the time the query inside over() is same, so intead of repeating that again and again and making the code look complex, we can store that query in a window function, make an alias "w", and use as many time as I want.
+
+![1](https://user-images.githubusercontent.com/33677647/204934454-685b9f8b-a000-4684-a464-4df4ac2c2619.JPG)
+
 
 
 
