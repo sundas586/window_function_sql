@@ -177,6 +177,12 @@ WHERE CumeDistValue <= .2;<br/>
 
 ![99](https://user-images.githubusercontent.com/33677647/205152373-ee234e76-b5be-41b0-b3ff-efa84e86e78a.JPG)
 
+## percent_rank() --> percentage rank
+
+ This function takes a column name as the argument and returns the number of rows with greater values than the sample value. <br/><br/>
+ In other words, if you have a column with values 1, 2, 3, and 4, and your current row has a value of 3, the Percent_Rank() function would return 0.75, or 3/4.
+
+![aa](https://user-images.githubusercontent.com/33677647/205156474-e9d0fc44-7c23-4500-a8fe-2d7e8e189b3d.JPG)
 
 
 
