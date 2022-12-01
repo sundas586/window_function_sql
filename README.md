@@ -81,6 +81,8 @@ the **Frame clause** is mentiones inside OVER() clause at the end, i.e after gro
 ![4](https://user-images.githubusercontent.com/33677647/204866950-6a5aa763-2f00-4c34-858b-363a9d9ecbcd.JPG)
 - as the above frame clause is by default, so it is not necessary for us to mention it.
 
+![kk](https://user-images.githubusercontent.com/33677647/204942047-8817a4cc-515e-4f01-a98a-8cdbfe43af0b.png)
+
 - UNBOUNDED PRECEDING indicates that the window starts at the first row of the partition;
 - UNBOUNDED PRECEDING : The bound is the first partition row.
 - UNBOUNDED FOLLOWING : The bound is the last partition row. 
@@ -121,7 +123,22 @@ returns the nth row we ask for, here in this example, we put 2, because we want 
  
 ```diff
 - When ever we use last_value() or nth_value, we must specify the Frame clause in order to properly fetch the data
-``` 
+```
+
+## NTILE()
+
+when we want to group together a few records into some desired number of buckets.
+
+![aa](https://user-images.githubusercontent.com/33677647/204943203-647786ed-6135-4815-a74d-4fd417d3febd.JPG)
+
+we did not use partition here because we need only phone catagory.
+
+![aa](https://user-images.githubusercontent.com/33677647/204943456-32a6666b-7321-4179-9ca8-eecdff9c91cb.JPG)
+
+
+
+
+
 
 
 
