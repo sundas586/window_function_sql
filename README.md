@@ -11,9 +11,9 @@ What are Window Functions? Window functions enable users to perform calculations
 
 when we use OVER() function with an agrigate function like max().
 the sql does not take max() as an agrigate function but like a window function , and over() tell sql to create window for each row/record. <br/>
-if I donnot put any thing in-between VIEW() then one window for each row.
+if I donnot put any thing in-between over() then one window for each row.
 and the result of that max() will be put in that window. <br/>
-but if we put any thing in between VIEW( partition by dpt) then sql will group all the departments together and find max salary for each dpt, separatly.
+but if we put any thing in between over( partition by dpt) then sql will group all the departments together and find max salary for each dpt, separatly.
 
 ![1](https://user-images.githubusercontent.com/33677647/204666268-c5087296-8a0b-410b-b589-f85acf5a15fd.JPG)
 ![2](https://user-images.githubusercontent.com/33677647/204666274-ae3819d0-b6c8-4b20-8e5c-237b56726a36.JPG)
