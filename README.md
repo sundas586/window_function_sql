@@ -210,6 +210,7 @@ Two things to remember when using window functions:<br/>
 2- You can't use the window function in the where clause to filter data.<br/>
 ```
 
+![LLL](https://user-images.githubusercontent.com/33677647/205265240-b893e132-7f9a-4590-99f2-c2c12e25225b.JPG)
 
 
 
