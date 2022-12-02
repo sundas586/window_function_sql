@@ -203,7 +203,10 @@ They are similar to the RANK function but return a percent over the group instea
 For a list of scores, PERCENT_RANK returns the percent of values less than the current score. CUME_DIST, which stands for cumulative distribution, returns the actual position of the score. <br/>
 If there are 100 scores and the PERCENT_RANK is 90, that means that the score is higher than 90 scores. If the CUME_DIST is 90, that means that the score is the 90th one in the list.
 
-
+## ALERT!!!
+Two things to remember when using window functions:
+1- you can't use group by in the same query with the window function.
+2- You can't use the window function in the where clause to filter data.
 
 
 
