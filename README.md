@@ -195,6 +195,11 @@ Here "||" is used to concatination btw. the value and "%" sign
 ![bb](https://user-images.githubusercontent.com/33677647/205171448-cb639c74-bb7f-480c-a7e6-d7b1bcb73d12.JPG)
 ![aaa](https://user-images.githubusercontent.com/33677647/205171467-e5af2a83-0a95-4487-8e8f-13bcb169f726.JPG)
 
+## Rank() vs Cume_dist() vs Percent_rank()
+
+These two functions are PERCENT_RANK and CUME_DIST.<br/>
+They are similar to the RANK function but return a percent over the group instead of just a ranking number.
+
 
 
 
