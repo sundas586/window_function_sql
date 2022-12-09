@@ -120,6 +120,10 @@ as most of the time the query inside over() is same, so intead of repeating that
 
 returns the nth row we ask for, here in this example, we put 2, because we want second most expensive product.
 
+```diff
+- Better not use nth value, it makes query very complex
+```
+
 ![2](https://user-images.githubusercontent.com/33677647/204935823-0cbcc6cc-850b-4426-9dc9-5baf028b6236.JPG)
 ![2](https://user-images.githubusercontent.com/33677647/204935957-d1c34f29-d755-4181-9522-bcd336feaac5.JPG)
  
